@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.test {
+    border: 1px solid red;
+}
+
+.logo-con {
+    display: flex;
+}
+
+.logo-box{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-box img {
+    margin-left: 10px;
+}
+
+.title-box {
+    width: 60%;
+    padding-top: 15px;
+}
+
+.title-box .title-1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    font-size: 35px;
+}
+
+.title-box .title-2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    line-height: 0px;
+    letter-spacing: 2px;
+    
+}
+
+input {
+    width:100%;
+    border: none !important;
+    text-transform: uppercase;
+}
+
+textarea {
+    width: 100%;
+    border: none !important;
+    text-transform: uppercase;
+}
+
+.photo-box {
+    width: 100%;
+    height: 160px;
+    border: 5px solid black;
+}
